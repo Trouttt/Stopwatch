@@ -1,0 +1,39 @@
+.container{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+}
+.img{
+    width:20vw;
+}
+.timer{
+    font-size:6vw;
+    margin-top:-15vw;
+}
+.buttonArea{
+    margin-top:5vw;
+    display:flex;
+    width:5vw;
+    justify-content:center;
+   
+}
+.button{
+    padding:1vw 2vw;
+    background-color:white;
+    text-align:center;
+    margin-right:2vw;
+    cursor:pointer;
+    border:none;
+    font-weight:bold;
+}
+.button:last-child{
+    margin-right:0;
+}
+.button:hover{
+    opacity:0.7;
+    transition:0.4s;
+    color:#000;
+}
